@@ -552,6 +552,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-\[30rem\] {
+  font-size: 30rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -575,4 +579,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .outline-indigo-700 {
   outline-color: #4338ca;
+}
+
+@media (min-width: 768px) {
+  .md\:h-40 {
+    height: 10rem;
+  }
 }
