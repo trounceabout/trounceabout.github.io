@@ -468,6 +468,24 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.from-teal-500 {
+  --tw-gradient-from: #14b8a6;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(20 184 166 / 0));
+}
+
+.to-indigo-700 {
+  --tw-gradient-to: #4338ca;
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
 .text-9xl {
   font-size: 8rem;
   line-height: 1;
@@ -492,9 +510,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 900;
 }
 
+.font-extrabold {
+  font-weight: 800;
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-transparent {
+  color: transparent;
 }
 
 .outline {
