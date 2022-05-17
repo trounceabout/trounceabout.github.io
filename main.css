@@ -568,6 +568,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 30rem;
 }
 
+.text-\[10rem\] {
+  font-size: 10rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -596,5 +600,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 @media (min-width: 768px) {
   .md\:h-40 {
     height: 10rem;
+  }
+
+  .md\:h-60 {
+    height: 15rem;
   }
 }
