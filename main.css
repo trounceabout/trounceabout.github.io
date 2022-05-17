@@ -468,6 +468,27 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.-right-9 {
+  right: -2.25rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+}
+
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
