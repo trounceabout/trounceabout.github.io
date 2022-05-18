@@ -472,10 +472,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: fixed;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .-right-16 {
   right: -4rem;
 }
@@ -489,20 +485,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-right: auto;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
-}
-
 .mb-4 {
   margin-bottom: 1rem;
 }
 
 .flex {
   display: flex;
-}
-
-.w-2\/6 {
-  width: 33.333333%;
 }
 
 .w-full {
@@ -575,23 +563,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 8rem;
 }
 
-.text-\[10rem\] {
-  font-size: 10rem;
-}
-
-.text-7xl {
-  font-size: 4.5rem;
-  line-height: 1;
-}
-
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.pb-6 {
+  padding-bottom: 1.5rem;
 }
 
 .text-8xl {
@@ -635,31 +608,27 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 768px) {
-  .md\:h-60 {
-    height: 15rem;
+  .md\:absolute {
+    position: absolute;
+  }
+
+  .md\:w-2\/6 {
+    width: 33.333333%;
   }
 
   .md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
+
+  .md\:text-\[10rem\] {
+    font-size: 10rem;
+  }
 }
 
 @media (min-width: 1280px) {
-  .xl\:absolute {
-    position: absolute;
-  }
-
   .xl\:mb-8 {
     margin-bottom: 2rem;
-  }
-
-  .xl\:w-2\/6 {
-    width: 33.333333%;
-  }
-
-  .xl\:text-\[10rem\] {
-    font-size: 10rem;
   }
 
   .xl\:text-7xl {
