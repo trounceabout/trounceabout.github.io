@@ -594,6 +594,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-extrabold {
   font-weight: 800;
 }
@@ -630,7 +650,30 @@ Ensure the default browser behavior of the `hidden` attribute.
     position: absolute;
   }
 
+  .xl\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .xl\:w-2\/6 {
     width: 33.333333%;
+  }
+
+  .xl\:text-\[10rem\] {
+    font-size: 10rem;
+  }
+
+  .xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .xl\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
