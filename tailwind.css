@@ -1014,6 +1014,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     gap: 3rem;
   }
 
+  .lg\:gap-36 {
+    gap: 9rem;
+  }
+
   .lg\:p-12 {
     padding: 3rem;
   }
