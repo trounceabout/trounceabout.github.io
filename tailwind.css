@@ -1034,6 +1034,14 @@ Ensure the default browser behavior of the `hidden` attribute.
     margin-bottom: 2rem;
   }
 
+  .xl\:w-\[800px\] {
+    width: 800px;
+  }
+
+  .xl\:max-w-\[1770px\] {
+    max-width: 1770px;
+  }
+
   .xl\:text-\[10rem\] {
     font-size: 10rem;
   }
