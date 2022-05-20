@@ -658,6 +658,26 @@ Ensure the default browser behavior of the `hidden` attribute.
   color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 
+.text-\[\#4183C4\] {
+  --tw-text-opacity: 1;
+  color: rgb(65 131 196 / var(--tw-text-opacity));
+}
+
+.text-\[\#EA4C89\] {
+  --tw-text-opacity: 1;
+  color: rgb(234 76 137 / var(--tw-text-opacity));
+}
+
+.text-\[\#0077B5\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 119 181 / var(--tw-text-opacity));
+}
+
+.text-\[\#1DA1F2\] {
+  --tw-text-opacity: 1;
+  color: rgb(29 161 242 / var(--tw-text-opacity));
+}
+
 .hover\:italic:hover {
   font-style: italic;
 }
