@@ -637,6 +637,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-basis: 66.666667%;
 }
 
+.basis-1\/2 {
+  flex-basis: 50%;
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -939,6 +943,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .duration-100 {
   transition-duration: 100ms;
+}
+
+.hover\:basis-2\/3:hover {
+  flex-basis: 66.666667%;
 }
 
 .hover\:border-b-0:hover {
