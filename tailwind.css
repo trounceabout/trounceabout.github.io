@@ -600,6 +600,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   max-width: 36rem;
 }
 
+.max-w-\[1600px\] {
+  max-width: 1600px;
+}
+
 .basis-1\/2 {
   flex-basis: 50%;
 }
